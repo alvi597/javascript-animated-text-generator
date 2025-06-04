@@ -1,6 +1,7 @@
 # 🎉 JavaScript Animated Text Generator
 
 This project is a sleek and responsive animated text generator built using HTML, CSS, and JavaScript. It showcases eye-catching, floating text animations with a clean UI — ideal for headers, banners, or interactive hero sections.
+Live Preview https://javascript-animated-text-generator.vercel.app/
 
 ## 🚀 Features
 
