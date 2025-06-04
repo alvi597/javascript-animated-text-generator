@@ -1,0 +1,45 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #2d3748;
+}
+::-webkit-scrollbar-thumb {
+    background: #4a5568;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}
+#animation-canvas span {
+  display: inline-block;
+  white-space: pre;
+  will-change: transform, opacity;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 0.375rem; 
+}
+input[type="color"]::-moz-color-swatch {
+    border: none;
+    border-radius: 0.375rem; 
+}
+#message-box {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+.message-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+.message-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
